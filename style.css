@@ -1,0 +1,63 @@
+
+
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(252, 223, 189);
+
+}
+
+#container{
+    border: 1px solid black;
+    background: rgb(138, 157, 158);
+    width: 232px; 
+    height: 344px;
+    margin: 100px auto;
+    padding: 10px ;
+    background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
+    border-radius: 7px;
+    
+    
+}
+
+.carac {
+    font-size: 15pt;
+}
+
+#resultado {
+    width: 98%;
+    height: 50px;
+    font-size: 20pt;
+    text-align: right;
+    
+}
+
+.teclas {
+    width: 50px;
+    height: 50px;
+    margin: 2px;
+    background: linear-gradient(-180deg, #BCC5CE 0%, #929EAD 98%), radial-gradient(at top left, rgba(255,255,255,0.30) 0%, rgba(0,0,0,0.30) 100%); background-blend-mode: screen;
+    
+}
+.tecla-c {
+    width: 108px;
+    height: 50px;
+    margin: 0px 2px;
+    background: linear-gradient(-180deg, #BCC5CE 0%, #929EAD 98%), radial-gradient(at top left, rgba(255,255,255,0.30) 0%, rgba(0,0,0,0.30) 100%); background-blend-mode: screen;
+    
+}
+
+.tecla-zero {
+    width: 108px;
+    height: 50px;
+    margin: 0px 2px;
+    background: linear-gradient(-180deg, #BCC5CE 0%, #929EAD 98%), radial-gradient(at top left, rgba(255,255,255,0.30) 0%, rgba(0,0,0,0.30) 100%); background-blend-mode: screen;
+    
+}
+
+.tecla-igual {
+    width: 50px;
+    height: 50px;
+    margin: 0px 2px;
+    background: linear-gradient(-180deg, #BCC5CE 0%, #929EAD 98%), radial-gradient(at top left, rgba(255,255,255,0.30) 0%, rgba(0,0,0,0.30) 100%); background-blend-mode: screen;
+    
+}
